@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Vidaloka', serif;
+  text-align: justify;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+    
+}
+
+
+body{
+  line-height: 25px;
+  background-image: url('img/bkg03.png');
+  background-size: cover;
+  
+}
+
+body a:visited{
+  color: lightyellow;
+}
+
+.navbar_header{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  
+  
+}
+
+.navbar_header a{
+  padding: 5px;
+  color:white;
+}
+
+.navbar_header a:visited{
+  color: lightyellow;
+}
+
+.navbar_header a:hover{
+  text-transform: uppercase;
+}
+
+.navbar_header a.active{
+  color: red;
+}
+
+/*index.html*/
+
+.index_h1 {
+  text-align: center;
+}
+
+header{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+.container_index{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container_index h2{
+  margin-bottom: 10px;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.text_main{
+  margin-right: 150px;
+}
+
+.hobbies, .interest, .invitation{
+  margin-top: 20px;
+}
+
+.hobbies a, .invitation a{
+  color: rgb(54, 65, 209);
+}
+
+
+/*construct.html*/
+
+.construct{
+  background-image: url('img/constructbkg_03.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.text_construct p{
+  border: solid;
+  margin-top: 25%;
+  text-align: center;
+  line-height: normal;
+  font-size: 50px;
+}
+
+/*formation.html / exp.html*/
+
+.container_formexp{
+  margin-top: 20px ;
+  margin-right: 200px;
+  align-items: center;
+  text-align: justify;
+}
+
+.cv_detail {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.cv_detail h1{
+  text-align: center;
+  width: 300px ;
+}
+
+.cv_detail ul{
+margin-left: 60px;
+}
+
+
+.date{
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(67, 65, 126);
+  line-height: 40px;
+}
+
